@@ -52,6 +52,6 @@ def add_s(array)
     else
       result << element
     end
-  result
   end
+  result
 end
