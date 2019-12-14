@@ -35,3 +35,7 @@ def kesha_maker(array)
   end
   result
 end
+
+def fin_a(array)
+  
+end
