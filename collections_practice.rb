@@ -44,6 +44,6 @@ def sum_array(array)
   array.reduce{|total,item|total+= item}
 end
 
-def add_s
-  
+def add_s(array)
+  array.each_with_index.collect(|element,index)
 end
