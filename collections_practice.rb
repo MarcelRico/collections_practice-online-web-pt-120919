@@ -43,3 +43,5 @@ end
 def sum_array(array)
   array.reduce{|total,item|total+= item}
 end
+
+def add_s
