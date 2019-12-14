@@ -47,4 +47,5 @@ end
 def add_s(array)
   result = []
   array.each_with_index.collect{|element, index| result << (element+"s") if index != 2}
+  result
 end
