@@ -46,6 +46,8 @@ end
 
 def add_s(array)
   result = []
-  array.each_with_index.collect{|element, index| result << (element+"s") if index != 1}
+  array.each_with_index.collect do |element, index|
+    if index != 1
+    result << (element+"s") }
   result
 end
